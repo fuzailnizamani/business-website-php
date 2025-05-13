@@ -1,0 +1,106 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+header, footer {
+  background-color: #d32f2f;
+  color: white;
+  padding: 15px 0;
+}
+
+header h2 {
+  text-align: center;
+  margin: 0;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+  background: url('https://www.example.com/hero-image.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+}
+
+.main {
+  padding: 20px;
+}
+
+.item-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item {
+  background-color: white;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+button.add-to-cart {
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button.add-to-cart:hover {
+  background-color: #c2185b;
+}
+
+.cart ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart ul li {
+  background-color: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.remove-item {
+  color: #d32f2f;
+  text-decoration: none;
+}
+
+.remove-item:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333;
+  color: white;
+}
