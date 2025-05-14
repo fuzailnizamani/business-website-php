@@ -1,8 +1,8 @@
 <?php include('includes/header.php'); ?>
 <main>
   <section class="hero">
-    <h1>Welcome to Best Food</h1>
-    <p>Freshly prepared food that brings happiness to your table.</p>
+    <h1 class="black">Welcome to Best Food</h1>
+    <p class="black">Freshly prepared food that brings happiness to your table.</p>
   </section>
 
   <section class="top-items">
@@ -10,17 +10,17 @@
     <div class="item-list">
       <div class="item">
         <h3>Pizza</h3>
-        <p>$25</p>
+        <p>$12</p>
         <button class="add-to-cart" data-item="Pizza" data-price="12">Add to Cart</button>
       </div>
       <div class="item">
         <h3>Biryani</h3>
-        <p>$28</p>
+        <p>$15</p>
         <button class="add-to-cart" data-item="Biryani" data-price="15">Add to Cart</button>
       </div>
       <div class="item">
         <h3>Pasta</h3>
-        <p>$17</p>
+        <p>$10</p>
         <button class="add-to-cart" data-item="Pasta" data-price="10">Add to Cart</button>
       </div>
       <div class="item">
@@ -30,25 +30,13 @@
       </div>
       <div class="item">
         <h3>Burger</h3>
-        <p>$15</p>
+        <p>$8</p>
         <button class="add-to-cart" data-item="Burger" data-price="8">Add to Cart</button>
       </div>
     </div>
   </section>
 </main>
 
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const buttons = document.querySelectorAll('.add-to-cart');
-    buttons.forEach(button => {
-      button.addEventListener('click', function() {
-        const item = this.getAttribute('data-item');
-        const price = parseFloat(this.getAttribute('data-price'));
-        const url = `add_to_cart.php?item=${item}&price=${price}`;
-        window.location.href = url;
-      });
-    });
-  });
-</script>
+<script src="./cart.js"></script>
 
 <?php include('includes/footer.php'); ?>

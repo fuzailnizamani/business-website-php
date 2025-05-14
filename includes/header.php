@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Foodie's Delight</title>
+  <title>Best Foodt</title>
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
   <header>
-    <h2>Foodie's Delight</h2>
+    <h2>Best Food</h2>
     <nav>
       <a href="/index.php">Home</a>
       <a href="/menu.php">Menu</a>

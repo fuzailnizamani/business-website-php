@@ -34,4 +34,5 @@
   </section>
   <a href="cart.php">View Cart</a>
 </main>
+<script src="./cart.js"></script>
 <?php include('includes/footer.php'); ?>
